@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styles -->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>lazytrap</title>
+</head>
+
+<body>
+
+    <a href="#" class="scroll-btn cd-top text-replace js-cd-top"><i class="fas fa-arrow-up"></i> <span class="d-none-m">Back to top</span></a>
+
+    <div class="container d-grid">
+        <!-- nav bar -->
+        <nav class="grid-p-1 text-white">
+
+            <h2 class="logo p10">lazy-strap.neik</h2>
+
+            <p class="p10 d-none-t ">This is lazy library for lazy people or people who try to save time...</p>
+
+            <div class="navigation p0 d-inline-block-m">
+                <ul>
+                    <li> <a href="#alerts">Alerts</a></li>
+                    <li> <a href="#buttons">Buttons</a></li>
+                    <li> <a href="#cards">Cards</a></li>
+                    <li> <a href="#lists">List Items</a></li>
+                    <li> <a href="#navbars">Navbars</a></li>
+                    <li> <a href="#inputs">Inputs</a></li>
+                    <li> <a href="#pagination">Paginations</a></li>
+                    <li> <a href="#progress-bars">Progress bars</a></li>
+                    <li> <a href="#loaders">Loaders</a></li>
+                    <li> <a href="#spacing">Spacing</a></li>
+                    <li> <a href="#sizing">Sizing</a></li>
+                    <li> <a href="#borders">Borders</a></li>
+                    <li> <a href="#text-style">Text Styles</a></li>
+                    <li> <a href="#bg">Colors</a></li>
+                    <li> <a href="#flex">Flex</a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <!-- main content -->
+        <main class="grid-p-2">
+            <!-- alerts info -->
+            <section class="sections" id="alerts">
+
+                <h1 class="text-center">Alert Styles</h1>
+                <div>
+                    <h3>Alert examples:</h3>
+                    <div>
+                        <div class="b-solid p10 d-flex flex-wrap flex-justify-center">
+
+                            <div class="alert">
+                                Default alert box
+                            </div>
+                            <div class="alert alert-froly text-white">
+                                Alert box with froly bg color
+                            </div>
+                            <div class="alert alert-corn text-black">
+                                Alert box with corn bg color
+                            </div>
+                            <div class="alert alert-downy text-black">
+                                Alert box with downy bg color
+                            </div>
+                            <div class="alert alert-glory text-black">
+                                Alert box with glory bg color
+                            </div>
+                            <div class="alert alert-clay text-white">
+                                Alert box with clay bg color
+                            </div>
+
+                        </div>
+
+                        <div class="code-info p10">
+                            <code>
+                            &lt;div class=&quot;alert&quot;&gt;Default alert box&lt;/div&gt;<br />
+                            &lt;div class=&quot;alert alert-froly text-white&quot;&gt;Alert box with froly bg color&lt;/div&gt;<br />
+                            &lt;div class=&quot;alert alert-corn text-black&quot;&gt;Alert box with corn bg color&lt;/div&gt;<br />
+                            &lt;div class=&quot;alert alert-downy text-black&quot;&gt;Alert box with downy bg color&lt;/div&gt;<br />
+                            &lt;div class=&quot;alert alert-glory text-black&quot;&gt;Alert box with glory bg color&lt;/div&gt;<br />
+                            &lt;div class=&quot;alert alert-clay text-white&quot;&gt;Alert box with clay bg color&lt;/div&gt;
+                        </code>
+                        </div>
+
+
+            </section>
+
+            <!-- buttons info -->
+            <section class="sections" id="buttons">
+                <h1 class="text-center">Button Styles</h1>
+                <!-- BTN COLORS -->
+                <div>
+                    <h3>Button colors examples</h3>
+                    <div>
+                        <div class="b-solid p10 d-flex flex-wrap flex-justify-center">
+                            <div class="btn btn-froly">Read more</div>
+                            <div class="btn btn-corn">Read more</div>
+                            <div class="btn btn-downy">Read more</div>
+                            <div class="btn btn-glory">Read more</div>
+                            <div class="btn btn-clay">Read more</div>
+                        </div>
+
+                        <div class="code-info p10 ">
+                            <code>
+                            &lt;div class=&quot;btn btn-froly&quot;&gt;Read more&lt;/div&gt;<br />
+                            &lt;div class=&quot;btn btn-corn&quot;&gt;Read more&lt;/div&gt;<br />
+                            &lt;div class=&quot;btn btn-downy&quot;&gt;Read more&lt;/div&gt;<br />
+                            &lt;div class=&quot;btn btn-glory&quot;&gt;Read more&lt;/div&gt;<br />
+                            &lt;div class=&quot;btn btn-clay&quot;&gt;Read more&lt;/div&gt;
+                        </code>
+                        </div>
+
+
+                        <h3>Button sizes examples</h3>
+                        <div>
+                            <div class="b-solid p10 text-center">
+                                <div class="btn text-white">Read more</div>
+                                <div class="btn btn-size-1 text-white">Read more</div>
+                                <div class="btn btn-size-2 text-white">Read more</div>
+                                <div class="btn btn-size-3 text-white">Read more</div>
+                                <div class="btn btn-size-4 text-white">Read more</div>
+                            </div>
+
+                            <div class="code-info p10">
+                                <code>
+                                &lt;div class=&quot;btn text-white&quot;&gt;Read more&lt;/div&gt;<br />
+                                &lt;div class=&quot;btn btn-size-1 text-white&quot;&gt;Read more&lt;/div&gt;<br />
+                                &lt;div class=&quot;btn btn-size-2 text-white&quot;&gt;Read more&lt;/div&gt;<br />
+                                &lt;div class=&quot;btn btn-size-3 text-white&quot;&gt;Read more&lt;/div&gt;<br />
+                                &lt;div class=&quot;btn btn-size-4 text-white&quot;&gt;Read more&lt;/div&gt;
+                            </code>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+            </section>
+
+            <!-- cards info -->
+            <section class="sections" id="cards">
+                <h1 class="text-center">Card Styles</h1>
+                <div>
+                    <h3>Card #1 example</h3>
+                    <div>
+                        <div class="b-solid p10 d-flex flex-wrap flex-justify-center">
+
+                            <div class="card">
+                                <div class="card-content-image">
+                                    <img class="card-img"
+                                        src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/full-moon-rituals-1551805740.jpg"
+                                        alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h1>This is heading</h1>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea ipsum iusto et
+                                        iste, nostrum dignissimos! Tempore recusandae facilis officia inventore?
+                                    </p>
+                                    <div class="btn btn-clay">Read more</div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="code-info p10">
+                            <code>
+                            &lt;div class=&quot;card&quot;&gt;<br />
+                            &lt;div class=&quot;card-content-image&quot;&gt; <br />
+                            &lt;img  class=&quot;card-img&quot; src=&quot;https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/full-moon-rituals-1551805740.jpg&quot; alt=&quot;&quot;&gt; <br />
+                            &lt;/div&gt;<br />
+                            &lt;div class=&quot;card-content&quot;&gt;<br />
+                            &lt;h1&gt;This is heading&lt;/h1&gt;<br />
+                            &lt;p&gt;<br />
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea ipsum iusto et iste, nostrum dignissimos! Tempore recusandae facilis officia inventore?<br />
+                            &lt;/p&gt;<br />
+                            &lt;div class=&quot;btn btn-clay&quot;&gt;Read more&lt;/div&gt;<br />
+                            &lt;/div&gt;<br />
+                            &lt;/div&gt;
+                        </code>
+                        </div>
+
+                        <div>
+                            <h3>Card #2 examples</h3>
+                            <div>
+                                <div class="b-solid p10 d-flex flex-wrap flex-justify-center">
+
+                                    <div class="card-second">
+                                        <div class="card-content-image">
+                                            <img class="card-img"
+                                                src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/full-moon-rituals-1551805740.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="card-content">
+                                            <div class="icons">
+                                                <div>
+                                                    <i class="far fa-clock"></i> 2021.03.01
+                                                </div>
+                                                <div>
+                                                    <i class="fas fa-user-circle"></i> Lazy Person
+                                                </div>
+                                            </div>
+                                            <h1>This is heading</h1>
+                                            <p>
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea ipsum iusto
+                                                et iste, nostrum dignissimos! Tempore recusandae facilis officia
+                                                inventore?
+                                            </p>
+                                            <div class="btn btn-all">Read article...</div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="code-info p10">
+                                    <code>
+                                    &lt;div class=&quot;card-second&quot;&gt;<br />
+                                    &lt;div class=&quot;card-content-image&quot;&gt; <br />
+                                    &lt;img  class=&quot;card-img&quot; src=&quot;https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/full-moon-rituals-1551805740.jpg&quot; alt=&quot;&quot;&gt; <br />
+                                    &lt;/div&gt;<br />
+                                    &lt;div class=&quot;card-content&quot;&gt;<br />
+                                    &lt;div class=&quot;icons&quot;&gt;<br />
+                                    &lt;div&gt;<br />
+                                    &lt;i class=&quot;far fa-clock&quot;&gt;&lt;/i&gt; 2021.03.01<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;div&gt;<br />
+                                    &lt;i class=&quot;fas fa-user-circle&quot;&gt;&lt;/i&gt; Lazy Person<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;h1&gt;This is heading&lt;/h1&gt;<br />
+                                    &lt;p&gt;<br />
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea ipsum iusto et iste, nostrum dignissimos! Tempore recusandae facilis officia inventore?<br />
+                                    &lt;/p&gt;<br />
+                                    &lt;div class=&quot;btn btn-all&quot;&gt;Read article...&lt;/div&gt;<br />
+                                    &lt;/div&gt;<br />
+                                    &lt;/div&gt;
+                                </code>
+                                </div>
+
+            </section>
+
+            <!-- list items info  -->
+            <section class="sections" id="lists">
+                <h1 class="text-center">List items Syles</h1>
+                <div>
+                    <h3>List item example</h3>
+                    <div>
+
+                        <ul class="list-group">
+                            <li class="list-group-item">First item</li>
+                            <li class="list-group-item">Second item</li>
+                            <li class="list-group-item">Third item</li>
+                            <li class="list-group-item">Fourth item</li>
+                            <li class="list-group-item">Fifth item</li>
+                            <li class="list-group-item">Sixth item</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="code-info p10">
+                        <code>
+                            &lt;ul class=&quot;list-group&quot;&gt;<br />
+                            &lt;li class=&quot;list-group-item&quot;&gt;First item&lt;/li&gt;<br />
+                            &lt;li class=&quot;list-group-item&quot;&gt;Second item&lt;/li&gt;<br />
+                            &lt;li class=&quot;list-group-item&quot;&gt;Third item&lt;/li&gt;<br />
+                            &lt;li class=&quot;list-group-item&quot;&gt;Fourth item&lt;/li&gt;<br />
+                            &lt;li class=&quot;list-group-item&quot;&gt;Fifth item&lt;/li&gt;<br />
+                            &lt;li class=&quot;list-group-item&quot;&gt;Sixth item&lt;/li&gt;<br />
+                            &lt;/ul&gt;  
+                        </code>
+                    </div>
+            </section>
+
+            <!-- nav bars info -->
+            <section class="sections" id="navbars">
+                <h1 class="text-center">Nav-bar Styles</h1>
+                <div>
+                    <h3>Nav Bar #1 example</h3>
+                    <div>
+
+                        <div class="nav-bar-one">
+
+                            <div class="nav-bar-one-items">
+                                <h2 class="d-none-m">LOGO</h2>
+                                <div class="nav-bar-one-menu-items">
+                                    <a href="#">Home</a>
+                                    <a href="#">About US</a>
+                                    <a href="#">Projects</a>
+                                </div>
+                            </div>
+
+                            <div class="nav-bar-search-items d-none-m">
+                                <input type="text" placeholder="Search">
+                                <div class="nav-bar-search-btn">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="code-info p10">
+                        <code>
+                            &lt;div class=&quot;nav-bar-one&quot;&gt;<br />
+                            &lt;div class=&quot;nav-bar-one-items&quot;&gt;<br />
+                            &lt;h2&gt;LOGO&lt;/h2&gt;<br />
+                            &lt;div class=&quot;nav-bar-one-menu-items&quot;&gt;<br />
+                            &lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;<br />
+                            &lt;a href=&quot;#&quot;&gt;About US&lt;/a&gt;<br />
+                            &lt;a href=&quot;#&quot;&gt;Projects&lt;/a&gt;<br />
+                            &lt;/div&gt;<br />
+                            &lt;/div&gt;<br />
+                            &lt;div class=&quot;nav-bar-search-items&quot;&gt;<br />
+                            &lt;input type=&quot;text&quot; placeholder=&quot;Search&quot;&gt;<br />
+                            &lt;div class=&quot;nav-bar-search-btn&quot;&gt;<br />
+                            &lt;i class=&quot;fas fa-search&quot;&gt;&lt;/i&gt;<br />
+                            &lt;/div&gt;<br />
+                            &lt;/div&gt;<br />
+                            &lt;/div&gt;
+                        </code>
+                    </div>
+
+                    <h3>Nav Bar #2 example</h3>
+                    <div>
+
+                        <div class="nav-bar-two">
+
+                            <h2 class="d-none-m">LOGO</h2>
+
+                            <div class="nav-bar-two-menu-items">
+                                <a href="#">Home</a>
+                                <a href="#">About US</a>
+                                <a href="#">Projects</a>
+                                <a href="#">About Us</a>
+                            </div>
+
+                            <div class="nav-bar-two-social-icons d-none-m">
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-youtube"></i>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="code-info p10">
+                        <code>
+                            &lt;div class=&quot;nav-bar-one&quot;&gt;<br />
+                            &lt;div class=&quot;nav-bar-one-items&quot;&gt;<br />
+                            &lt;h2&gt;LOGO&lt;/h2&gt;<br />
+                            &lt;div class=&quot;nav-bar-one-menu-items&quot;&gt;<br />
+                            &lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;<br />
+                            &lt;a href=&quot;#&quot;&gt;About US&lt;/a&gt;<br />
+                            &lt;a href=&quot;#&quot;&gt;Projects&lt;/a&gt;<br />
+                            &lt;/div&gt;<br />
+                            &lt;/div&gt;<br />
+                            &lt;div class=&quot;nav-bar-search-items&quot;&gt;<br />
+                            &lt;input type=&quot;text&quot; placeholder=&quot;Search&quot;&gt;<br />
+                            &lt;div class=&quot;nav-bar-search-btn&quot;&gt;<br />
+                            &lt;i class=&quot;fas fa-search&quot;&gt;&lt;/i&gt;<br />
+                            &lt;/div&gt;<br />
+                            &lt;/div&gt;<br />
+                            &lt;/div&gt;
+                        </code>
+                    </div>
+                </div>
+            </section>
+
+            <!-- inputs info -->
+            <section class="sections" id="inputs">
+                <h1 class="text-center">Input Styles</h1>
+                <div>
+                    <h3>Input examples</h3>
+                    <div>
+                        <div class="b-solid p10 d-flex flex-wrap flex-justify-center">
+
+                            <div class="input-field">
+                                <input class="input" type="text" placeholder="First style" name="" id="">
+                                <input class="input input-froly" type="text" placeholder="Second style" name="" id="">
+                                <input class="input input-corn" type="text" placeholder="Third style" name="" id="">
+                                <input class="input input-downy" type="text" placeholder="Fourth Style" name="" id="">
+                                <input class="input input-glory" type="text" placeholder="Fifth Style" name="" id="">
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="code-info p10">
+                            <code>
+                                &lt;input class=&quot;input&quot; type=&quot;text&quot; placeholder=&quot;First style&quot; name=&quot;&quot; id=&quot;&quot;&gt;<br />
+                                &lt;input class=&quot;input input-froly&quot; type=&quot;text&quot; placeholder=&quot;Second style&quot; name=&quot;&quot; id=&quot;&quot;&gt;<br />
+                                &lt;input class=&quot;input input-corn&quot; type=&quot;text&quot; placeholder=&quot;Third style&quot; name=&quot;&quot; id=&quot;&quot;&gt;<br />
+                                &lt;input class=&quot;input input-downy&quot; type=&quot;text&quot; placeholder=&quot;Fourth Style&quot; name=&quot;&quot; id=&quot;&quot;&gt;<br />
+                                &lt;input class=&quot;input input-glory&quot; type=&quot;text&quot; placeholder=&quot;Fifth Style&quot; name=&quot;&quot; id=&quot;&quot;&gt;
+                            </code>
+                        </div>
+            </section>
+
+            <!-- pagination info -->
+            <section class="sections" id="pagination">
+                <h1 class="text-center">Pagination Styles</h1>
+                <div>
+                    <h3>Paginations example</h3>
+                    <div>
+                        <div class="b-solid p10 d-flex flex-wrap flex-justify-center">
+
+                            <ul class="pagination">
+                                <li class="pagination-item"><a href="#">Previous</a></li>
+                                <li class="pagination-item"><a href="#">1</a></li>
+                                <li class="pagination-item"><a href="#">2</a></li>
+                                <li class="pagination-item"><a href="#">3</a></li>
+                                <li class="pagination-item"><a href="#">4</a></li>
+                                <li class="pagination-item"><a href="#">5</a></li>
+                                <li class="pagination-item"><a href="#">Next</a></li>
+                            </ul>
+
+                        </div>
+
+                        <div class="code-info p10">
+                            <code>
+                            &lt;ul class=&quot;pagination&quot;&gt;<br />
+                            &lt;li class=&quot;pagination-item&quot;&gt;&lt;a href=&quot;#&quot;&gt;Previous&lt;/a&gt;&lt;/li&gt;<br />
+                            &lt;li class=&quot;pagination-item&quot;&gt;&lt;a href=&quot;#&quot;&gt;1&lt;/a&gt;&lt;/li&gt;<br />
+                            &lt;li class=&quot;pagination-item&quot;&gt;&lt;a href=&quot;#&quot;&gt;2&lt;/a&gt;&lt;/li&gt;<br />
+                            &lt;li class=&quot;pagination-item&quot;&gt;&lt;a href=&quot;#&quot;&gt;3&lt;/a&gt;&lt;/li&gt;<br />
+                            &lt;li class=&quot;pagination-item&quot;&gt;&lt;a href=&quot;#&quot;&gt;4&lt;/a&gt;&lt;/li&gt;<br />
+                            &lt;li class=&quot;pagination-item&quot;&gt;&lt;a href=&quot;#&quot;&gt;5&lt;/a&gt;&lt;/li&gt;<br />
+                            &lt;li class=&quot;pagination-item&quot;&gt;&lt;a href=&quot;#&quot;&gt;Next&lt;/a&gt;&lt;/li&gt; <br />
+                            &lt;/ul&gt;
+                        </code>
+                        </div>
+            </section>
+
+            <!-- progress bars info -->
+            <section class="sections" id="progress-bars">
+                <h1 class="text-center">Progress bar Styles</h1>
+                <div>
+                    <h3>Progress bars example</h3>
+                    <div>
+                        <div class="b-solid p10 d-flex flex-wrap flex-justify-center">
+
+                            <div class="progress-bar">
+                                <div class="progres-bar-size prog-25 progress-froly"></div>
+                            </div>
+
+                            <div class="progress-bar">
+                                <div class="progres-bar-size prog-50 progress-corn"></div>
+                            </div>
+
+                            <div class="progress-bar">
+                                <div class="progres-bar-size prog-75 progress-downy"></div>
+                            </div>
+
+                            <div class="progress-bar">
+                                <div class="progres-bar-size prog-100 progress-glory"></div>
+                            </div>
+
+                        </div>
+
+                        <div class="code-info p10">
+                            <code>
+                            &lt;div class=&quot;progress-bar&quot;&gt;<br />
+                            &lt;div class=&quot;progres-bar-size prog-25 progress-froly&quot;&gt;&lt;/div&gt;<br />
+                            &lt;/div&gt;<br />
+                            <br />
+                            &lt;div class=&quot;progress-bar&quot;&gt;<br />
+                            &lt;div class=&quot;progres-bar-size prog-50 progress-corn&quot;&gt;&lt;/div&gt;<br />
+                            &lt;/div&gt;<br />
+                            <br />
+                            &lt;div class=&quot;progress-bar&quot;&gt;<br />
+                            &lt;div class=&quot;progres-bar-size prog-75 progress-downy&quot;&gt;&lt;/div&gt;<br />
+                            &lt;/div&gt;<br />
+                            <br />
+                            &lt;div class=&quot;progress-bar&quot;&gt;<br />
+                            &lt;div class=&quot;progres-bar-size prog-100 progress-glory&quot;&gt;&lt;/div&gt;<br />
+                            &lt;/div&gt;
+                        </code>
+                        </div>
+                    </div>
+            </section>
+
+            <!-- loaders info -->
+            <section class="sections" id="loaders">
+                <h1 class="text-center">Loader Styles</h1>
+                <div>
+                    <h3>Loaders examples</h3>
+                    <div>
+                        <div class="b-solid p10 d-flex flex-wrap flex-justify-eventually flex-items-center">
+
+                            <div class="loader-one">
+                                <i class="fas fa-spinner"></i>
+                            </div>
+
+                            <div class="loader-two"></div>
+
+                            <div class="loader-three">
+                                <div class="loader-three-color background-froly"></div>
+                                <div class="loader-three-color background-corn"></div>
+                                <div class="loader-three-color background-downy"></div>
+                            </div>
+
+                            <div class="loader-four">
+                                <div class="loader-four-color background-froly"></div>
+                                <div class="loader-four-color background-corn"></div>
+                                <div class="loader-four-color background-downy"></div>
+                                <div class="loader-four-color background-glory"></div>
+                                <div class="loader-four-color background-clay"></div>
+                            </div>
+
+                            <div class="loader-five">
+                                <span>Loading...</span>
+                                <div class="loader-five-main">
+                                    <div class="loader-five-loader"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="code-info p10">
+                            <code>
+                            &lt;div class=&quot;loader-one&quot;&gt;<br />
+                            &lt;i class=&quot;fas fa-spinner&quot;&gt;&lt;/i&gt;<br />
+                            &lt;/div&gt;<br /><br />
+                            &lt;div class=&quot;loader-two&quot;&gt;&lt;/div&gt;<br />
+                            <br />
+                            &lt;div class=&quot;loader-three&quot;&gt;<br />
+                            &lt;div class=&quot;loader-three-color background-froly&quot;&gt;&lt;/div&gt;<br />
+                            &lt;div class=&quot;loader-three-color background-corn&quot;&gt;&lt;/div&gt;<br />
+                            &lt;div class=&quot;loader-three-color background-downy&quot;&gt;&lt;/div&gt;<br />
+                            &lt;/div&gt;<br />
+                            <br />
+                            &lt;div class=&quot;loader-four&quot;&gt;<br />
+                            &lt;div class=&quot;loader-four-color background-froly&quot;&gt;&lt;/div&gt;<br />
+                            &lt;div class=&quot;loader-four-color background-corn&quot;&gt;&lt;/div&gt;<br />
+                            &lt;div class=&quot;loader-four-color background-downy&quot;&gt;&lt;/div&gt; <br />
+                            &lt;div class=&quot;loader-four-color background-glory&quot;&gt;&lt;/div&gt; <br />
+                            &lt;div class=&quot;loader-four-color background-clay&quot;&gt;&lt;/div&gt; <br />
+                            &lt;/div&gt;<br />
+                            <br />
+                            &lt;div class=&quot;loader-five&quot;&gt;<br />
+                            &lt;span&gt;Loading...&lt;/span&gt;<br />
+                            &lt;div class=&quot;loader-five-main&quot;&gt;<br />
+                            &lt;div class=&quot;loader-five-loader&quot;&gt;&lt;/div&gt;<br />
+                            &lt;/div&gt;<br />
+                            &lt;/div&gt;
+                        </code>
+                        </div>
+            </section>
+
+            <!-- Spacing info -->
+            <section class="sections" id="spacing">
+                <h1 class="text-center">Spacing</h1>
+                <div>
+                    <h3>Padding examples</h3>
+                    <div>
+                        <div class="spacing-box b-solid p10 d-flex flex-wrap flex-justify-eventually flex-items-center">
+
+                            <div class="p10">Padding around</div>
+                            <div class="pt10">Padding top</div>
+                            <div class="pl10">Padding left</div>
+                            <div class="pb10">Padding bottom</div>
+                            <div class="pr10">Padding right</div>
+                            <div class="p0">No padding</div>
+
+                        </div>
+
+                        <div class="code-info p10">
+                            <code>
+                                    &lt;div class=&quot;p10&quot;&gt;Padding around&lt;/div&gt;<br />
+                                    &lt;div class=&quot;pt10&quot;&gt;Padding top&lt;/div&gt;<br />
+                                    &lt;div class=&quot;pl10&quot;&gt;Padding left&lt;/div&gt;<br />
+                                    &lt;div class=&quot;pb10&quot;&gt;Padding bottom&lt;/div&gt;<br />
+                                    &lt;div class=&quot;pr10&quot;&gt;Padding right&lt;/div&gt;<br />
+                                    &lt;div class=&quot;p0&quot;&gt;No padding&lt;/div&gt;
+                                </code>
+                        </div>
+                    </div>
+                    <h3>Margin examples</h3>
+                    <div>
+                        <div class="spacing-box b-solid p10 d-flex flex-wrap flex-justify-eventually flex-items-center">
+
+                            <div><span class="m10">Margin around</span></div>
+                            <div><span class="mt10">Margin top</span></div>
+                            <div><span class="ml10">Margin left</span></div>
+                            <div><span class="mb10">Margin bottom</span></div>
+                            <div><span class="mr10">Margin right</span></div>
+                            <div><span class="m0">No Margin</span></div>
+
+                        </div>
+
+                        <div class="code-info p10">
+                            <code>
+                                &lt;div class=&quot;p10&quot;&gt;Padding around&lt;/div&gt;<br />
+                                &lt;div class=&quot;pt10&quot;&gt;Padding top&lt;/div&gt;<br />
+                                &lt;div class=&quot;pl10&quot;&gt;Padding left&lt;/div&gt;<br />
+                                &lt;div class=&quot;pb10&quot;&gt;Padding bottom&lt;/div&gt;<br />
+                                &lt;div class=&quot;pr10&quot;&gt;Padding right&lt;/div&gt;<br />
+                                &lt;div class=&quot;p0&quot;&gt;No padding&lt;/div&gt;
+                            </code>
+                        </div>
+                    </div>
+            </section>
+
+            <section class="sections" id="sizing">
+                <h1 class="text-center">Sizing</h1>
+                <div>
+                    <h3>Width examples</h3>
+                    <div>
+                        <div class="sizing-box b-solid p10 d-flex flex-wrap flex-justify-eventually flex-items-center">
+
+                            <div class="p10 w25">Width 25%</div>
+                            <div class="p10 w50">Width 50%</div>
+                            <div class="p10 w75">Width 75%</div>
+                            <div class="p10 w100">Width 100%</div>
+
+                        </div>
+
+                        <div class="code-info p10">
+                            <code>
+                                &lt;div class=&quot;p10 w25&quot;&gt;Width 25%&lt;/div&gt;<br />
+                                &lt;div class=&quot;p10 w50&quot;&gt;Width 50%&lt;/div&gt;<br />
+                                &lt;div class=&quot;p10 w75&quot;&gt;Width 75%&lt;/div&gt;<br />
+                                &lt;div class=&quot;p10 w100&quot;&gt;Width 100%&lt;/div&gt;
+                            </code>
+                        </div>
+                    </div>
+                    <h3>Height</h3>
+                    <div>
+
+                        <div class="code-info p10">
+                            <code>
+                                &lt;div class=&quot;h100-vh&quot;&gt;Height 100 vh&lt;/div&gt;<br />
+                                &lt;div class=&quot;h100-proc&quot;&gt;Height 100%&lt;/div&gt;<br />
+                                &lt;div class=&quot;h50&quot;&gt;Height 50%&lt;/div&gt;<br />
+                                &lt;div class=&quot;h25&quot;&gt;Height 25%&lt;/div&gt;
+                            </code>
+                        </div>
+                    </div>
+            </section>
+
+            <section class="sections" id="borders">
+                <h1 class="text-center">Border</h1>
+                <div>
+                    <h3>Border examples</h3>
+                    <div>
+                        <div class="b-solid p10 d-flex flex-wrap flex-justify-eventually flex-items-center">
+
+                            <div class="p10 b-solid">Solid</div>
+                            <div class="p10 b-dotted">Dotted</div>
+                            <div class="p10 b-dashed">Dashed</div>
+                            <div class="p10 b-double">Double</div>
+
+                        </div>
+
+                        <div class="code-info p10">
+                            <code>
+                                &lt;div class=&quot;p10 b-solid&quot;&gt;Solid&lt;/div&gt;<br />
+                                &lt;div class=&quot;p10 b-dotted&quot;&gt;Dotted&lt;/div&gt;<br />
+                                &lt;div class=&quot;p10 b-dashed&quot;&gt;Dashed&lt;/div&gt;<br />
+                                &lt;div class=&quot;p10 b-double&quot;&gt;Double&lt;/div&gt;
+                            </code>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sections" id="text-style">
+                <h1 class="text-center">Text Styles</h1>
+                <div>
+                    <h3>Text aligns examples</h3>
+                    <div>
+                        <div class="b-solid p10 d-flex flex-wrap flex-column flex-justify-eventually">
+
+                            <div class="text-center">Center</div>
+                            <div class="text-left">Left</div>
+                            <div class="text-right">Right</div>
+
+                        </div>
+
+                        <div class="code-info p10">
+                            <code>
+                                &lt;div class=&quot;text-center&quot;&gt;Center&lt;/div&gt;<br />
+                                &lt;div class=&quot;text-left&quot;&gt;Left&lt;/div&gt;<br />
+                                &lt;div class=&quot;text-right&quot;&gt;Right&lt;/div&gt;
+                            </code>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sections" id="bg">
+                <h1 class="text-center">Color styles</h1>
+                <div>
+                    <h3>Background color examples</h3>
+                    <div>
+                        <div class="b-solid p10 d-flex flex-wrap flex-justify-eventually flex-items-center">
+
+                            <div class="background-froly p10">froly</div>
+                            <div class="background-corn p10">corn</div>
+                            <div class="background-downy p10">downy</div>
+                            <div class="background-glory p10">glory</div>
+                            <div class="background-clay p10 text-white">clay</div>
+
+                        </div>
+
+                        <div class="code-info p10">
+                            <code>
+                                &lt;div class=&quot;background-froly&quot;&gt;froly&lt;/div&gt;<br />
+                                &lt;div class=&quot;background-corn&quot;&gt;corn&lt;/div&gt;<br />
+                                &lt;div class=&quot;background-downy&quot;&gt;downy&lt;/div&gt;<br />
+                                &lt;div class=&quot;background-glory&quot;&gt;glory&lt;/div&gt;<br />
+                                &lt;div class=&quot;background-clay&quot;&gt;clay&lt;/div&gt;
+                            </code>
+                        </div>
+                    </div>
+                    <h3>Text color examples</h3>
+                    <div>
+                        <div class="b-solid p10 d-flex flex-wrap flex-justify-eventually flex-items-center">
+
+                            <div class="text-black">Black</div>
+                            <div class="text-white">White</div>
+                            <div class="text-green">Green</div>
+                            <div class="text-froly">Froly</div>
+                            <div class="text-clay">Clay</div>
+
+                        </div>
+
+                        <div class="code-info p10">
+                            <code>
+                                &lt;div class=&quot;text-black&quot;&gt;Black&lt;/div&gt;<br />
+                                &lt;div class=&quot;text-white&quot;&gt;White&lt;/div&gt;<br />
+                                &lt;div class=&quot;text-green&quot;&gt;Green&lt;/div&gt;<br />
+                                &lt;div class=&quot;text-froly&quot;&gt;Froly&lt;/div&gt;<br />
+                                &lt;div class=&quot;text-clay&quot;&gt;Clay&lt;/div&gt;
+                            </code>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sections" id="flex">
+                <h1 class="text-center">Flex</h1>
+                <div>
+                    <h3>Flex code:</h3>
+                    <div>
+                    
+                        <div class="code-info p10">
+                            <code>
+                                <h2>Desktop</h2>
+                                &lt;div class=&quot;d-flex&quot;&gt;&lt;/div&gt;<br />
+                                &lt;div class=&quot;flex-column&quot;&gt;&lt;/div&gt;<br />
+                                &lt;div class=&quot;flex-row&quot;&gt;&lt;/div&gt;<br />
+                                &lt;div class=&quot;flex-wrap&quot;&gt;&lt;/div&gt;<br />
+                                &lt;div class=&quot;flex-nowrap&quot;&gt;&lt;/div&gt;<br />
+                                &lt;div class=&quot;flex-justify-center&quot;&gt;&lt;/div&gt;<br />
+                                &lt;div class=&quot;flex-justify-eventually&quot;&gt;&lt;/div&gt;<br />
+                                &lt;div class=&quot;flex-items-center&quot;&gt;&lt;/div&gt;<br /><br />
+                                <h2>Tablet</h2>
+                                &lt;div class=&quot;d-flex-t&quot;&gt;&lt;/div&gt;<br />
+                                &lt;div class=&quot;flex-column-t&quot;&gt;&lt;/div&gt;<br />
+                                &lt;div class=&quot;flex-row-t&quot;&gt;&lt;/div&gt;<br />
+                                &lt;div class=&quot;flex-wrap-t&quot;&gt;&lt;/div&gt;<br />
+                                &lt;div class=&quot;flex-nowrap-t&quot;&gt;&lt;/div&gt;<br />
+                                &lt;div class=&quot;flex-justify-center-t&quot;&gt;&lt;/div&gt;<br />
+                                &lt;div class=&quot;flex-justify-eventually-t&quot;&gt;&lt;/div&gt;<br />
+                                &lt;div class=&quot;flex-items-center-t&quot;&gt;&lt;/div&gt;<br /><br />
+                                <h2>Mobile</h2>
+                                &lt;div class=&quot;d-flex-m&quot;&gt;&lt;/div&gt;<br />
+                                &lt;div class=&quot;flex-column-m&quot;&gt;&lt;/div&gt;<br />
+                                &lt;div class=&quot;flex-row-m&quot;&gt;&lt;/div&gt;<br />
+                                &lt;div class=&quot;flex-wrap-m&quot;&gt;&lt;/div&gt;<br />
+                                &lt;div class=&quot;flex-nowrap-m&quot;&gt;&lt;/div&gt;<br />
+                                &lt;div class=&quot;flex-justify-center-m&quot;&gt;&lt;/div&gt;<br />
+                                &lt;div class=&quot;flex-justify-eventually-m&quot;&gt;&lt;/div&gt;<br />
+                                &lt;div class=&quot;flex-items-center-m&quot;&gt;&lt;/div&gt;<br /><br />
+                            </code>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- scroll to top -->
+    <script src="backToTop.js"></script>
+
+</body>
+
+</html>
