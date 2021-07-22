@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  background-color: #ECEBE4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.quiz-app .question {
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 1px solid #ECEBE4;
+  color: #ECEBE4;
+  background-color: #429EA6;
+}
+
+.quiz-app .question input[type=checkbox] {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.quiz-app .question .label-text {
+  margin-left: 20px;
+}
+
+.quiz-app .main-question {
+  padding: 20px 0;
+}
+
+.correct {
+  background-color: green;
+}
+
+.wrong {
+  background-color: red;
+}
+
+.quiz-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.quiz-top .time {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  font-size: 50px;
+}
+
+.quiz-top .image {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.app .question-pagination {
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.app .question-pagination .pagination {
+  margin: 2px;
+  padding: 8px;
+  color: #ECEBE4;
+  background-color: #429EA6;
+  cursor: pointer;
+}
+
+.app .button {
+  width: 100%;
+  padding: 20px;
+  font-size: 24px;
+  background-color: #429EA6;
+  color: #ECEBE4;
+  cursor: pointer;
+}
+
+.app .end-quiz-render {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
